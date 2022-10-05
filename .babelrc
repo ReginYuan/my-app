@@ -1,0 +1,13 @@
+{
+  "presets": ["es2015"], //设置转码规则
+  "plugins": [
+    "transform-runtime",
+    [
+      "component",
+      {
+        "libraryName": "element-ui",
+        "styleLibraryName": "theme-chalk"
+      }
+    ]
+  ] //设置插件
+}
